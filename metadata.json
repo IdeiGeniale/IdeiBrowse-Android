@@ -1,0 +1,6 @@
+{
+  "name": "Web Browser",
+  "description": "A fast, privacy-focused, and highly polished web browser featuring multi-tab views, local history/bookmarks, desktop mode, find-in-page, and theme customization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
