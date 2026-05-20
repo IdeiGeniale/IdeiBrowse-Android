@@ -1,21 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# IdeiBrowse for Android
 
-# Run and deploy your AI Studio app
+A fast, lightweight, and fully native web browser built from scratch for Android using **Jetpack Compose**, **Kotlin**, and cutting-edge generative application architecture in Google AI Studio. 
 
-This contains everything you need to run your app locally.
+Unlike standard mobile web wrappers, **IdeiBrowse** utilizes compiled, bare-metal native components to ensure smooth rendering, low latency, and a highly responsive user experience.
 
-View your app in AI Studio: https://ai.studio/apps/14906cd5-8823-4682-b656-c35b6bf8a83e
+---
 
-## Run Locally
+## Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+* **True Native UI:** Built entirely using Material 3 and Jetpack Compose—enjoy fluid animations running at your device's native refresh rate (60Hz / 120Hz).
+* **Multi-Tab Layout:** Seamlessly navigate between different web portals without losing state.
+* **Intelligent Address Bar:** Instant navigation with a modern, Chrome-inspired URL bar architecture.
+* **Forward/Backward History:** Built-in hardware-accelerated state tracking for painless web surfing.
+* **Optimized Rendering Engine:** Utilizes isolated, high-performance Android system nodes for crisp layout serialization.
 
+---
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## Requirements & Tech Stack
+
+* **Language:** Kotlin 
+* **UI Framework:** Jetpack Compose (Material 3)
+* **Minimum SDK:** Android 26 (Android 8.0 Oreo) or higher
+* **Target SDK:** Android 34 / 35
+* **Build System:** Gradle (Kotlin DSL)
+
+---
+
+## How to Compile Locally
+
+If you want to tinker with the code directly in Android Studio or re-import it into AI Studio:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/IdeiGeniale/IdeiBrowse-Android.git](https://github.com/IdeiGeniale/IdeiBrowse-Android.git)
